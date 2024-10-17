@@ -1,0 +1,9 @@
+spring:
+   application:
+      name: JMSNotificationWithArtemis
+
+   #Apache Artemis Configuration
+   artemis:
+      broker-url: tcp://localhost:61616
+      user: admin
+      password: admin
